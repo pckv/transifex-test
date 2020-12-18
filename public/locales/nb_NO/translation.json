@@ -1,0 +1,9 @@
+{
+    "learn_react": "Lær React",
+    "edit_info": "Rediger <1>src/App.tsx</1> og lagre for å oppdatere siden.",
+    "choose_language": "Velg språk",
+    "locale": {
+        "en": "Engelsk",
+        "nb_NO": "Norsk"
+    }
+}

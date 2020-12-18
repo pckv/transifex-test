@@ -36,3 +36,17 @@
         transform: rotate(360deg);
     }
 }
+
+.tutorial {
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.tutorial p {
+    color: black;
+    margin: 0;
+    font-size: 14pt;
+    text-align: left;
+}

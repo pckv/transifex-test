@@ -1,0 +1,15 @@
+{
+    "learn_react": "Learn React",
+    "edit_info": "Edit <1>src/App.tsx</1> and save to reload.",
+    "tutorial": {
+        "introduction": "Welcome to transifex test!",
+        "step1": "1. Click the green button",
+        "step2": "2. Click the red button",
+        "step3": "3. Repeat"
+    },
+    "choose_language": "Choose language",
+    "locale": {
+        "en": "English",
+        "nb_NO": "Norwegian"
+    }
+}
