@@ -1,12 +1,13 @@
 {
     "learn_react": "Lær React",
-    "edit_info": "Rediger <1>src/App.tsx</1> og lagre for å oppdatere siden.",
+    "edit_info": "Rediger <1>src/App.tsx</1> og lagre for å oppdatere.",
     "tutorial": {
         "introduction": "Velkommen til transifex test!",
         "step1": "1. Trykk på den grønne knappen",
         "step2": "2. Trykk på den røde knappen",
         "step3": "3. Gjenta"
     },
+    "click_me": "Trykk meg",
     "choose_language": "Velg språk",
     "locale": {
         "en": "Engelsk",
