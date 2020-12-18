@@ -1,17 +1,18 @@
-import { FunctionComponent, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { FC, useState } from 'react';
+import { withTranslation, WithTranslation } from "react-i18next";
 import styles from './InteractiveButton.module.css';
 
-const InteractiveButton: FunctionComponent = () => {
+const InteractiveButton: FC<WithTranslation> = ({ t }) => {
     const [toggled, setToggled] = useState(false);
 
     return <>
         <button 
             className={toggled ? styles.toggled : styles.button}
             onClick={() => setToggled(!toggled)}
-        />
-        <span></span>
+        >
+            {t('click_me')}
+        </button>
     </>
 }
 
-export default InteractiveButton;
+export default withTranslation()(InteractiveButton);
